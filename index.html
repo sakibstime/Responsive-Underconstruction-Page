@@ -5,6 +5,7 @@ To change this template file, choose Tools | Templates
 and open the template in the editor.
     Created on : 2018-11-28, 17:41:51
     Author     : Tomasz Kozik
+    Updated by : Md. Sohanur Rahman Sakib
 -->
 <html>
     <head>
@@ -37,8 +38,10 @@ and open the template in the editor.
            </div>                   
         </main>
         <footer>
-            Copyright &copy; 2018 Tomasz Kozik. All Rights Reserved.
+            <p style="font-size:12px;">© Copyrights <span id="year"></span> Tomasz Kozik. All Rights Reserved.
         </footer>
-
+<script>
+document.getElementById("year").innerHTML = new Date().getFullYear();
+</script>
     </body>
 </html>
