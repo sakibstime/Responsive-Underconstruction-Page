@@ -1,3 +1,4 @@
+        
 /*
 To change this license header, choose License Headers in Project Properties.
 To change this template file, choose Tools | Templates
@@ -6,6 +7,7 @@ and open the template in the editor.
 /* 
     Created on : 2018-11-28, 17:41:51
     Author     : Tomasz Kozik
+    Updated by : Md. Sohanur Rahman Sakib
 */
 
 html {
@@ -73,9 +75,9 @@ footer {
     margin: 0px;
     padding: 2vh;
     font-size: 6vh;
-    font-weight: 100;
+    font-weight:800;
     text-transform: uppercase;
-    letter-spacing: 2vh;
+    letter-spacing: 1vh;
 }
 
 #info {
